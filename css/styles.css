@@ -1,0 +1,143 @@
+/* FOUNDATION */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BASE */
+html {
+    font-size: 16px;
+}
+@media ( min-width: 700px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: sans-serif;
+    line-height: 1.1;
+}
+h1,
+h2,
+h3,
+p {
+    margin: 1rem 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* SITE LAYOUT */
+.site {
+    overflow: hidden;
+}
+
+.site-header {
+    display: flex;
+    flex-direction: column;
+    background-color: #d30d2b;
+}
+
+.site-navigation {
+    display: flex;
+}
+
+.site-main {
+    text-align: center;
+}
+
+.site-footer {
+    background-color: #d30d2b;
+}
+
+/* SITE HEADER */
+
+/* LOGGA */
+.logga {
+    width: 20%;
+    height: 20%;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+/* NAVIGATIONS MENY */
+.meny {
+    text-decoration: none;
+    text-align: center;
+    /* padding-bottom: 5px; */
+}
+
+/* FRÅGOR:
+Hur får jag bakgrunden att byta färg med mouseover?
+ */
+button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    border: none;
+    background-color:rgb(240, 1, 1);
+}
+
+/* BODY */
+
+.framsida {
+    position: relative;
+
+    height: 65vh;
+    padding: 0;
+    background-image: url(../images/deadlift-ConvertImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center; /* justera i x-led */
+    align-items: flex-end;    /* justera i y-led */
+    color: white;
+}
+
+.framsida .fade {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* FOOTER */
+
+.site-footer {
+    /* display: flex;
+    flex-flow:row; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.mail {
+    width: 10%;
+    height: 10%;
+    max-width: 50px;
+    max-height: 50px;
+    float: right;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}

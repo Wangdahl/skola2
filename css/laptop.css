@@ -1,0 +1,105 @@
+/* BRYTPUNKT LAPTOP */
+
+
+/* SITE LAYOUT */
+
+.site-main {
+    margin-top: 150px;
+}
+
+/* MENYN */
+.meny {
+    flex-direction: row;
+}
+
+.btn-toggle {
+    display: none;
+}
+.site-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.meny-knapp {
+    border-radius: 0px;
+    margin: 0px;
+}
+
+
+/* Framsida part 2 */
+.stuff {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: none;
+}
+
+/* Beställ program */
+
+.standard {
+    padding: 20px 100px;
+}
+
+/* Instruktioner */
+
+.instruktioner {
+    margin-left: 17%; 
+    margin-right: 17%;
+}
+
+.info-h1 {
+    font-size: 35px;
+    margin-top: 250px;
+
+}
+
+.info-h2 {
+    font-size: 25px;
+}
+
+.info-p {
+text-align: left;
+}
+
+.info-ol {
+    text-align: left;
+    margin-left: 20%; 
+    margin-right: 20%;
+}
+
+/* träningsprogram */
+
+.program-div {
+    padding: 40px 100px;
+}
+
+.traningsprogram {
+    padding: 40px 75px;
+}
+
+/* FOOTER */
+
+
+.social-links {
+    justify-content: center;
+}
+
+.fa-facebook {
+    padding: 10px 30px;
+}
+
+.fa-instagram-square {
+
+    padding: 10px 30px;
+
+}
+
+.fa-linkedin {
+
+    padding: 10px 30px;
+
+}
+
+.fa-twitter-square {
+    padding: 10px 30px;
+
+}

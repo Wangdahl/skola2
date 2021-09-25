@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beställ program</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" media="(min-width:768px)" href="./css/laptop.css">
+</head>
+</head>
+
+<body>
+
+    <div class="site">
+
+        <!-- SIDHUVUD -->
+        <header class="site-header">
+
+            <!-- LOGGA -->
+            <div class="logga">
+
+                <a href="./index.html"><img src="./images/logga123.png" alt="skivstångs vikt"></a>
+
+            </div>
+
+            <!-- NAVIGATION -->
+            <input type="checkbox" id="toggle-menu" class="toggle-menu"> 
+            <nav class="site-navigation">
+                <a class="meny-knapp" href="index.html">HEM</a>
+                <a class="meny-knapp" href="bestall-program.html">BESTÄLL PROGRAM</a>
+                <a class="meny-knapp" href="traningsprogram/index.html">TRÄNINGSPROGRAM</a>
+                <a class="meny-knapp" href="kontakt.html">KONTAKT</a>
+                <a class="meny-knapp" href="om-oss.html">OM OSS</a>
+            </nav>
+            <label class="btn-toggle" for="toggle-menu">
+                <i class="fas fa-2x fa-bars"></i>
+            </label>
+
+        </header>
+
+        <!-- SIDKROPP -->
+        <main class="site-main">
+
+            <!-- CONTENT -->
+            <section class="content">
+
+                <h1 class="info-h1" >BESTÄLL DITT PROGRAM</h1>
+                <div class="standard" >
+
+                    <h2 class="info-h2">Fyll i formuläret för att beställa ett personligt anpassat program.</h2>
+                    <p class="info-p" >Träningsprogramet kommer att optimeras för att du ska göra framsteg i din träning. Målet med träningsprogrammet varierar beroende på vilket du väljer. Det kan vara större muskelmassa, ökad styrka, viktminskning eller en kombination. 
+                        <a class="info-a" href="./traningsprogram/index.html">Du hittar en lista över program här.</a> <br><br> Det är viktigt att du fyller i dina maxvikter så noggrant som möjligt. Vi använder den informationen för att optimera vikter, set och repititioner för att du ska göra framsteg så fort som möjligt. <br><br> I meddelande rutan kan du uppge om det är några övningar du vill undvika på grund av skador eller liknande.</p>
+                    <ol class="info-ol" >
+                        <li>Fyll i namnet du vill ha på ditt formulär.</li>
+                        <li>Fyll i mail adressen som vi ska skicak ditt träningsprogram till.</li>
+                        <li>Fyll i vilket program som du vill få anpassat.</li>
+                        <li>Fyll i dina ungefärliga maxlyft i respektive övning.</li>
+                        <li>Fyll i övriga önskemål.</li>
+                    </ol>
+
+                </div>
+
+                <div class="form-1 program-post">
+
+                    <form class="form-form" action="mailto:someone@example.com" method="post" enctype="text/plain">
+                        <p>Namn:</p>
+                        <input class="textruta namn" type="text" name="name" placeholder="Ditt namn"><br>
+                        <p>Mail:</p>
+                        <input class="textruta namn" type="text" name="mail" placeholder="dinmail@dinmail.com"><br>
+                        <p>Program:</p>
+                        <input class="textruta namn" type="text" name="mail" placeholder="Val av program"><br>
+                        <p>Knäböj:</p>
+                        <input class="textruta" type="text" name="Knäböj" placeholder="Maxvikt i kg">
+                        <p>Bänkpress:</p>
+                        <input class="textruta" type="text" name="Bänkpress" placeholder="Maxvikt i kg"><br>
+                        <p>Marklyft:</p>
+                        <input class="textruta" type="text" name="Marklyft" placeholder="Maxvikt i kg">
+                        <p>Militärpress:</p>
+                        <input class="textruta" type="text" name="Militärpress" placeholder="Maxvikt i kg"><br>
+                        <p>Meddelande:</p>
+                        <input class="textruta meddelande" type="text" name="Meddelande" placeholder="Skriv eventuella önskemål här"><br><br>
+                        <input class="form-knapp" type="submit" value="Skicka">
+                        <input class="form-knapp" type="reset" value="Reset">
+                    </form>
+
+                </div>
+
+
+            </section>
+
+        </main>
+
+        <!-- SIDFOT -->
+        <footer class="site-footer">
+
+
+            <div class="fot-1">
+
+                <div class="socials">
+                    <ul class="social-links">
+                        <a href="https://facebook.com"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://instagram.com"><i class="fab fa-instagram-square"></i></a>
+                        <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+    
+</body>
+</html>
